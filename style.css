@@ -184,15 +184,28 @@ body {
 	.headline2 {
 	margin-top: 25px;
 	}
+
+	.all-photos {
+	width:100%;
+	}
+
+
+	.row2-container {
+		display:inline-block;
+
+	}
 }
+
+
+
 
 /* Phone in landscape mode, small tablet */
-@media all and (max-width: 767px) {
+/*@media all and (max-width: 767px) {
 
-}
+}*/
 
 /* Smaller Phone, phone in portrait mode */
-@media all and (max-width: 480px) {
+@media all and (max-width: 767px) {
 
 	.all-columns {
 	display:inline-block;
@@ -204,6 +217,14 @@ body {
 		font-size:25px;
 	}
 
+	.all-photos {
+		width:100%;
+	}
+
+	.row2-container {
+		display:inline-block;
+
+	}
 }
 
 
