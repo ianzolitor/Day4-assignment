@@ -164,16 +164,22 @@ body {
 /*Desktop First Media Queries*/
 
 /* Extra Wide Desktops*/
-@media all and (min-width: 1200px) {
 
-}
+
+/*@media all and (min-width: 1200px) {
+
+}*/
 
 /* Tablets and small desktop */
 @media all and (min-width: 768px) and (max-width: 979px) {
 	
+	.headline, .headline2 {
+	font-size: 30px;
+	}
 
-
-
+	.headline2 {
+	margin-top: 25px;
+	}
 }
 
 /* Phone in landscape mode, small tablet */
@@ -190,7 +196,9 @@ body {
 
 	}
 
-
+	.headline {
+		font-size:25px;
+	}
 
 }
 
