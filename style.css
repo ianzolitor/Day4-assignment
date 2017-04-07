@@ -5,6 +5,10 @@ body {
 	background-color:darkgrey;
 }
 
+.button {
+	text-align: center;
+	padding:10px;
+}
 
 .headline, .headline2 {
 	text-align: center;
